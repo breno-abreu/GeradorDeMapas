@@ -9,7 +9,7 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ptg.Controller">
    <children>
       <Button layoutX="1025.0" layoutY="99.0" mnemonicParsing="false" onAction="#generateMap" prefWidth="85.0" text="Gerar Mapa" />
-      <ImageView fx:id="imageView" fitHeight="800.0" fitWidth="800.0" layoutX="28.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageView" fitHeight="800.0" fitWidth="800.0" layoutX="28.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" smooth="false" AnchorPane.leftAnchor="28.0" AnchorPane.topAnchor="25.0" />
       <TextField fx:id="seedField" layoutX="878.0" layoutY="99.0" prefHeight="25.0" prefWidth="85.0" text="1" />
       <TextField fx:id="octField" layoutX="878.0" layoutY="141.0" prefHeight="25.0" prefWidth="85.0" text="5" />
       <Label layoutX="873.0" layoutY="166.0" text="Frequência (x &gt; 0)" />
